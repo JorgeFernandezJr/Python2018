@@ -6,12 +6,12 @@ t = turtle.Turtle()
 w = turtle.Screen()
 w.bgcolor("#000000")
 g = turtle.pen()
-t.speed(2.5)
-t.color("#FFFF00")
+t.speed(0)
+t.color("gold")
 t.penup()
-t.setposition(-0, -95)
+t.setposition(0, -95)
 t.pendown()
-t.width(25 + 1)
+t.width(5 + 1)
 
 for i in range (3): 
 	t.forward(250)
@@ -25,11 +25,11 @@ for x in range (2):
 for j in range(2):
 	t.right(240)
 	t.forward(250)
-
+	
 for a in range(1):
 	t.right(240)
 	t.forward(500)
-
+	
 for l in range(3):
 	t.right(240)
 	t.forward(250)
