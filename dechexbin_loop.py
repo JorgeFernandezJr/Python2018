@@ -7,11 +7,11 @@ def bincon(decimal):
         bin_str = bin_str + str(binary)
         if(i == 3):
             bin_str = bin_str + " "
-        return bin_str[::-1]
+    return bin_str[::-1]
 
 def hexcon(decimal):
     hex_str = ""
-    #remainder = str(decimal % 16 > 9)
+    #remainder = str(decimal % 16)
     if (decimal % 16 > 9):
         addasc = 55
     else:
@@ -33,6 +33,6 @@ def main():
         hexs = hexcon(dec)
         bins = bincon(dec)
         print(dec,hexs,bins)
-        dec +=1
+        dec += 1
 
 main()
