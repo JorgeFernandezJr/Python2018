@@ -4,7 +4,7 @@ import turtle
 
 t = turtle.Turtle()
 w = turtle.Screen()
-w.bgcolor("#000000")
+w.bgcolor("#1ba100")
 g = turtle.pen()
 t.speed(0)
 t.color("gold")
@@ -33,5 +33,12 @@ for a in range(1):
 for l in range(3):
 	t.right(240)
 	t.forward(250)
-
+import turtle
+l = turtle.Turtle()
+l.color("gold")
+l.width(5 + 1)
+l.circle(72)
+l.left(90)
+l.forward(213)
+	
 turtle.done()
